@@ -24,7 +24,7 @@ class TestJunit1 {
 		driver.findElement(By.name("q")).submit();
 		driver.quit();
 		//assertEquals("Google",driver.getTitle());
-		System.out.println("test case passed");
+		System.out.println("test case  passed");
 		
 		
 		
