@@ -20,7 +20,7 @@ class TestJunit1 {
 		//fail("Not yet implemented");
 		
 		driver.get("http://google.com");
-		driver.findElement(By.name("q")).sendKeys("i am groot");
+		driver.findElement(By.name("q")).sendKeys("My name is groot");
 		driver.findElement(By.name("q")).submit();
 		driver.quit();
 		//assertEquals("Google",driver.getTitle());
